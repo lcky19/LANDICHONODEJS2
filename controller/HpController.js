@@ -11,27 +11,27 @@ const ph = {
         res.render('cart');
     },
 
-    checkout: (req, res) => { // Corrected order
+    checkout: (req, res) => { 
         res.render('checkout');
     },
 
-    contact: (req, res) => { // Corrected order
+    contact: (req, res) => { 
         res.render('contact');
     },
 
-    blog: (req, res) => { // Corrected order
+    blog: (req, res) => { 
         res.render('blog');
     },
     
-    services: (req, res) => { // Corrected order
+    services: (req, res) => { 
         res.render('services');
     },
 
-    shop: (req, res) => { // Corrected order
+    shop: (req, res) => { 
         res.render('shop');
     },
 
-    thankyou: (req, res) => { // Corrected order
+    thankyou: (req, res) => { 
         res.render('thankyou');
     }
 };
